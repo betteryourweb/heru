@@ -1,0 +1,28 @@
+{
+    "name": "betteryourweb/heru",
+    "description": "Simple and Slim framework using Silex and some Illuminate (Laravel) components  Edit",
+    "license": "MIT",
+    "authors": [{
+        "name": "Derek Williams",
+        "email": "betteryourweb@gmail.com"
+    }],
+    "require": {
+        "silex/silex": "^1.3",
+        "illuminate/view": "^5.2",
+        "symfony/var-dumper": "^3.0",
+        "illuminate/database": "^5.2",
+        "illuminate/pagination": "^5.2",
+        "illuminate/console": "^5.2",
+        "fzaninotto/faker": "^1.5",
+        "doctrine/dbal": "^2.5",
+        "symfony/yaml": "~3",
+        "symfony/config": "~3",
+        "illuminate/filesystem": "^5.2",
+        "philo/laravel-blade": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Betteryourweb\\": "src/"
+        }
+    }
+}
